@@ -1,0 +1,228 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Raleway-Bold';
+}
+
+@font-face{
+  font-family: 'Raleway-Bold';
+  src: url('../fuentes/Raleway-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.boton{
+  height: 48px;
+  width: 48px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  border-color: black;
+
+  position:fixed;
+  top: 520px;
+  left: 1255px;
+  border-radius: 30%;
+  transition: all 1s ease;
+}
+.boton:hover{
+  transform: scale(1.5,1.5);
+  background-color: rgba(255, 255, 255, 0.8);
+
+
+}
+
+.menupc{
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /*position: relative;*/
+}
+/*
+.menu-principal, .redes-top{
+  display: inline-block;
+}
+*/
+
+.logo, .redes-top{
+  margin:20px;
+}
+
+.banner{
+  width: 100%;
+  height: 500px;
+  background-image: url(../imagen/banner.jpg);
+  background-position:center;
+  background-size: cover;
+}
+
+.banner > div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#llamada-accion{
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#llamada-accion h2{
+  font-size: 24px;
+  color: #7a7a7a;
+  text-transform: uppercase;
+  padding-top: 115px;
+  padding-bottom: 20px;
+}
+
+#llamada-accion p{
+  font-size: 48px;
+  color: #7a7a7a;
+  padding: 45px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  max-width: 470px;
+  
+}
+
+#llamada-accion a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 50px;
+  margin-top: 35px;
+  background-color: rgba(0, 0, 0, 0.47);
+  display: inline-block;
+}
+#llamada-accion a:hover{
+  color:#a4281f;
+}
+
+.menu-principal a{
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+.menu-principal a:hover{
+  color:#a4281f;
+}
+
+.bienvenido{
+  width: 100%;
+  background-color: #20509d;
+  margin: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.bienvenido h3{
+  font-size: 20px;
+  padding:45px;
+
+}
+
+.bienvenido p{
+  max-width: 370px;
+  margin: auto;
+  padding-bottom:60px;
+
+}
+
+.vid {
+  width: 100%;
+  height: auto;
+}
+
+.conocenos{
+  text-align: center;
+  width: 100%;
+
+}
+.conocenos > div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.conocenos h3{
+  font-size: 12px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+}
+
+.conocenos h2{
+  font-size: 20px;
+  padding-bottom: 30px;
+
+}
+
+.conocenos p{
+  text-align: justify;
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.conocenos a{
+  color: green;
+  text-align: left;
+
+}
+.separador{
+  width: 100px;
+  height: 50px;
+  background: transparent;
+}
+
+.conocenos a:hover{
+  color:#a4281f;
+}
+
+.clusters{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #152d37;
+  color: #7a7a71;
+
+}
+.noticia{
+  max-width: 300px;
+  height: auto;
+}
+
+.noticia h3{
+  padding: 20px;
+}
+
+.noticia p{
+  padding-bottom: 20px;
+}
+
+.pie{
+  background-color: #091418;
+  padding-top:  20px;
+  padding-bottom: 20px;
+
+}
+
+.derechos{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
